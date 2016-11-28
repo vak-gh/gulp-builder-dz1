@@ -7,4 +7,4 @@ Stack:
 Victor Kazakov
 
 ##Update
-Added Gulp tasks *copy:fonts* and *sprite:png*
+Added Gulp tasks *copy:fonts* and *sprite:img*
