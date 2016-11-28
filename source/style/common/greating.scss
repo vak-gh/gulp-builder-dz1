@@ -1,3 +1,5 @@
+@import 'sprite';
+
 .greating {
   overflow: hidden;
   position: relative;
@@ -14,9 +16,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 100px;
-    height: 114px;
-    background: url('/assets/img/viking.png') no-repeat center;
+    @include sprite($viking);
     transform: translate3D(100%, 0, 0);
     transition: transform 0.5s;
   }
